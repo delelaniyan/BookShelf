@@ -1,4 +1,9 @@
-var book = [
+
+function setup() {
+  createCanvas(400, 400);
+}
+function draw() {
+    var book = [
 {
     title: "The Giver",
     stars: 4
@@ -31,4 +36,5 @@ for(var j = 0; j < book.length; j++) {
         fill(0, 0, 0);
         image(getImage("cute/Star"), i*15+j*101, i*0+98, 25, 38);
     }
+}
 }
